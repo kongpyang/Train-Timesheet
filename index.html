@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
+<title>Train Timesheet</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+
+
+<body>
+<!-- header -->
+
+<div class="container">
+        <div class="jumbotron">
+        <h1 class="title">'Time Travel Machine' Timesheet</h1>
+        <p class="lead">The Next Time Travel Availability To Your Destination</p>
+        
+        </div>
+        </div>
+
+<!-- table -->
+<div class="container2">
+
+<h2>Current Train Schedule</h2>
+<thead>
+
+<tr>
+<div class="titles">
+<th class="col">Train Name</th>
+<th class="col">Destination</th>
+<th class="col">Frequence (min)</th>
+<th class="col">Next Arrival</th>
+<th class="col">Minutes Away</th>
+</div>
+<table class="table"></table>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+
+</tr>
+</tbody>
+</div>
+
+<!-- form -->
+<div class="container">
+
+<div class="trainInfo"></div>
+<form>
+<h2>Add Train</h2>
+<div class="form-group">
+<label for="inputName">Train Name</label>
+<input type="text" class="form-control" id="name" aria-describedby="" placeholder="">
+
+</div>
+<div class="form-group">
+<label for="inputDestination">Destination</label>
+<input type="text" class="form-control" id="inputDestination" placeholder="">
+</div>
+<div class="form-group">
+<label for="inputTime">First Time Train (HH:mm-Millitary Time)</label>
+<input type="text" class="form-control" id="time" aria-describedby="" placeholder="24:00">
+
+</div>
+<div class="form-group">
+<label for="inputFrequency">Frequence (min)</label>
+<input type="text" class="form-control" id="frequencyTime" placeholder="">
+</div>
+
+<button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+</form>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/localforage/1.7.3/localforage.js"></script>
+<script src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>

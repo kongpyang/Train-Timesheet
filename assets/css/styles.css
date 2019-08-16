@@ -1,0 +1,64 @@
+h1 {
+    color: #07ec1a;
+    text-align: center;
+}
+
+.lead {
+    color: aliceblue;
+    text-align: center;
+}
+
+.container {
+    border: 1px solid #07ec1a;
+    background-color: lightgray;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.container2 {
+    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 0px;
+}
+
+.titles {
+    padding-left: 50px;
+    padding-right: 50px;
+   margin-left: 250px;
+   margin-right: 250px;
+
+}
+
+
+
+
+
+
+.table {
+    text-align: center;
+    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.jumbotron {
+    background-color: black;
+    margin-bottom: 0px;
+
+}
+
+h2 {
+    color: #07ec1a;
+    background:rgb(10, 10, 10);
+    width: 100%;
+    margin-left: 0px;
+    text-align: center
+}
+
+.form-group {
+    padding: 20px;
+}
