@@ -81,5 +81,3 @@ table.append(br, result[i])
 });
 }, 500)
 
-
-
